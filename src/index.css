@@ -113,10 +113,13 @@ ul {
 }
 
 .minPigTile {
+  cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.png"), auto;
   width: 250px;
   height: 250px;
   background-size: cover;
 }
+
+
 
 .maxPigTile {
   background-size: cover;
@@ -149,4 +152,16 @@ ul {
   to {
     transform: rotate(360deg);
   }
+}
+
+.show {
+  display: block;
+  transition: 800ms;
+  opacity: 1;
+}
+
+.show.active {
+  /* display: none; */
+  transform: translateY(100px) scale(0) rotateY(180deg);
+  opacity: 0;
 }
