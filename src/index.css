@@ -69,7 +69,7 @@ ul {
 }
 
 .subtleText {
-  color: #D1D1D1;
+  color:blueviolet;
   font-size: .75em;
 }
 
@@ -118,8 +118,6 @@ ul {
   height: 250px;
   background-size: cover;
 }
-
-
 
 .maxPigTile {
   background-size: cover;
